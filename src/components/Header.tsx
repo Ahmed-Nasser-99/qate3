@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className="flex flex-col items-center w-full justify-center">
       <div className="w-[150px] h-[150px] ">
-        <img src="public/logo.png" />;
+        <img src="/logo.png" />;
       </div>
       <div className="w-11/12 md:w-2/3 sm:w1/3 flex flex-col gap-4">
         <p className="text-center">

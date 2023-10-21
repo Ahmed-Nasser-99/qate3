@@ -1,16 +1,24 @@
-import { companies } from "./companies";
-import CompaniesList from "./components/CompaniesList";
-import Header from "./components/Header";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import React from "react";
+import Home from "./pages/Home";
+import Company from "./pages/Company";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/:company",
+    element: <Company />,
+  },
+]);
 
 function App() {
   return (
-    <div className="flex flex-col gap-10">
-      <Header />
-      <CompaniesList companies={companies} />
-      <h1 className="text-3xl font-bold underline text-white">
-        Free Palestine
-      </h1>
-    </div>
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
   );
 }
 

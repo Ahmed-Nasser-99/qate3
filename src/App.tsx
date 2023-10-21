@@ -1,7 +1,12 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import {
+  RouterProvider,
+  createBrowserRouter,
+  useParams,
+} from "react-router-dom";
 import React from "react";
-import Home from "./pages/Home";
-import Company from "./pages/Company";
+import Home from "./pages/home/Home";
+import Company from "./pages/company/Company";
+import Header from "./components/Header";
 
 const router = createBrowserRouter([
   {
@@ -15,8 +20,10 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  const { company } = useParams();
   return (
     <React.StrictMode>
+      <Header showExtraParagraph={!company} />
       <RouterProvider router={router} />
     </React.StrictMode>
   );

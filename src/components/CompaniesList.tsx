@@ -1,5 +1,5 @@
 import { Company as CompanyType } from "../companies";
-import Company from "./Company";
+import Company from "./CompanyCard";
 
 interface CompaniesListProps {
   companies: CompanyType[];

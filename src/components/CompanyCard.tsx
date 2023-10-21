@@ -18,7 +18,7 @@ const Company = ({ company }: CompanyProps) => {
         <img
           src={company.logo}
           alt={company.name}
-          className="w-48 h-48 object-contain"
+          className="w-4/5 aspect-square object-contain"
         />
         <p className="text-lg font-bold">{company.name}</p>
       </div>

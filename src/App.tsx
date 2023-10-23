@@ -1,31 +1,19 @@
-import {
-  RouterProvider,
-  createBrowserRouter,
-  useParams,
-} from "react-router-dom";
-import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Company from "./pages/company/Company";
 import Header from "./components/Header";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/:company",
-    element: <Company />,
-  },
-]);
-
 function App() {
-  const { company } = useParams();
   return (
-    <React.StrictMode>
-      <Header showExtraParagraph={!company} />
-      <RouterProvider router={router} />
-    </React.StrictMode>
+    <div>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/:companyId" element={<Company />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

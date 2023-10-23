@@ -7,7 +7,7 @@ interface CompanyProps {
 
 const Company = ({ company }: CompanyProps) => {
   return (
-    <Link to={`/${company.name}`}>
+    <Link to={`/${company.id}`}>
       <div
         className={`flex flex-col items-center justify-center rounded-lg 
         p-2 border-2 border-gray-300 cursor-pointer ${

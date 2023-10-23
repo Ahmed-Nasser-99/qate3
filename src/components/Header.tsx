@@ -1,8 +1,9 @@
-interface HeaderProps {
-  showExtraParagraph: boolean;
-}
+import { useLocation } from "react-router-dom";
 
-const Header = ({ showExtraParagraph }: HeaderProps) => {
+const Header = () => {
+  const { pathname } = useLocation();
+  const isInHome = pathname === "/";
+
   return (
     <div className="flex flex-col items-center w-full justify-center">
       <div className="w-[150px] h-[150px] ">
@@ -18,7 +19,7 @@ const Header = ({ showExtraParagraph }: HeaderProps) => {
           لَا تُظْلَمُون [الأنفال-60]
         </p>
 
-        {showExtraParagraph && (
+        {isInHome && (
           <p className="text-xl md:text-2xl  underline decoration-green-400">
             موقع يضم مجموعه من المنتجات والشركات التابعة{" "}
             <span className="text-red-500">للكيان الصهيوني</span> -لعنهم الله-

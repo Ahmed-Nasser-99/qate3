@@ -5,7 +5,7 @@ const Header = () => {
   const isInHome = pathname === "/";
 
   return (
-    <div className="flex flex-col items-center w-full justify-center">
+    <div className="flex flex-col items-center w-full justify-center mb-20">
       <div className="w-[150px] h-[150px] ">
         <img src="/logo.png" />;
       </div>

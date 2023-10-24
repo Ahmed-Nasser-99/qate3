@@ -9,7 +9,6 @@ const Company = () => {
     companies
       .flatMap((company) => company.replacements)
       .find((company) => company?.id === companyId);
-  console.log(companyId, company);
 
   return (
     <div className="flex justify-center items-center">

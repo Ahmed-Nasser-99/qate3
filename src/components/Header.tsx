@@ -1,14 +1,16 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const { pathname } = useLocation();
   const isInHome = pathname === "/";
 
   return (
-    <div className="flex flex-col items-center w-full justify-center mb-20">
-      <div className="w-[150px] h-[150px] ">
-        <img src="/logo.png" />;
-      </div>
+    <div className="flex flex-col items-center w-full justify-center mb-16">
+      <Link to="/">
+        <div className="w-[150px] h-[150px] ">
+          <img src="/logo.png" />;
+        </div>
+      </Link>
       <div className="w-11/12 md:w-2/3 sm:w1/3 flex flex-col gap-4 text-center">
         <p>
           بسم الله الرحمن الرحيم
@@ -36,6 +38,10 @@ const Header = () => {
         يرجى التواصل&nbsp;
         <a className="text-blue-500 underline" href="https://t.me/ahmedNasser1">
           علي التليجرام
+        </a>
+        &nbsp; او علي&nbsp;
+        <a className="text-blue-500 underline" href="https://t.me/ahmedNasser1">
+          الفيس بوك{" "}
         </a>
       </p>
     </div>

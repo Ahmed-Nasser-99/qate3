@@ -27,6 +27,17 @@ const Header = () => {
           </p>
         )}
       </div>
+      <p className="text-center text-lg md:text-xl mt-10">
+        هذا الموقع تحت الانشاء والتطوير ولم يتم التاكد من صحة اغلب المعلومات
+        الموجودة فيه
+        <br />
+        اذا اردت المساعدة في تطوير الموقع او اضافة معلومات او تصحيحها
+        <br />
+        يرجى التواصل&nbsp;
+        <a className="text-blue-500 underline" href="https://t.me/ahmedNasser1">
+          علي التليجرام
+        </a>
+      </p>
     </div>
   );
 };

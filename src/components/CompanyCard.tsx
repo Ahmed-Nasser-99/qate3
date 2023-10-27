@@ -15,8 +15,10 @@ const CompanyCard = ({
   const cardBody = (
     <div
       className={`flex flex-col items-center justify-center rounded-lg 
-        p-2 border-2 border-gray-300 transition duration-300 ease-in-out bg-cover      
-        ${hoverToShowEffect ? "cursor-pointer" : ""}
+        p-2 border-2 border-gray-300 transition duration-300 ease-in-out bg-cover ${
+          hoverToShowEffect ? "cursor-pointer" : ""
+        }
+        ${!company.isOk && "bg-right-top bg-blend-darken"}
         ${
           company.isOk
             ? `${
@@ -29,8 +31,10 @@ const CompanyCard = ({
                   : `bg-[url("/palestine-flag.png")]`
               }`
             : `${
-                hoverToShowEffect ? `hover:border-red-500` : "border-red-500"
-              } ${
+                hoverToShowEffect
+                  ? `hover:border-red-500 hover:bg-red-900`
+                  : "border-red-500 bg-red-900"
+              }  ${
                 hoverToShowEffect
                   ? `hover:bg-[url("/blood-israeli-flag.png")]`
                   : `bg-[url("/blood-israeli-flag.png")]`

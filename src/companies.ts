@@ -32,7 +32,7 @@ export const companies: Company[] = [
   {
     name: "McDonald's",
     id: "2",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo.png",
     isOk: false,
     replacements: [
       {
@@ -50,7 +50,7 @@ export const companies: Company[] = [
   {
     name: "Pepsi",
     id: "3",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Pepsi-logo.png",
+    logo: "https://1000logos.net/wp-content/uploads/2017/05/Pepsi-logo.png",
     isOk: false,
     replacements: [
       {
@@ -68,7 +68,7 @@ export const companies: Company[] = [
   {
     name: "Coca-Cola",
     id: "4",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Coca-Cola-Logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo.png",
     isOk: false,
     replacements: [
       {
@@ -86,7 +86,7 @@ export const companies: Company[] = [
   {
     name: "Lay's",
     id: "5",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Lays-logo.png",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/6/67/Lay%27s_logo_2019.svg",
     isOk: false,
     replacements: [
       {
@@ -104,7 +104,7 @@ export const companies: Company[] = [
   {
     name: "Burger King",
     id: "6",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Burger-King-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2016/10/Burger-King_Logo-700x420.png",
     isOk: false,
     replacements: [
       {
@@ -122,7 +122,7 @@ export const companies: Company[] = [
   {
     name: "Starbucks",
     id: "7",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Starbucks-Logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2023/04/Starbucks-logo.png",
     isOk: false,
     replacements: [
       {
@@ -140,7 +140,7 @@ export const companies: Company[] = [
   {
     name: "Subway",
     id: "8",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Subway-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2017/06/Subway-logo-640x356.png",
     isOk: false,
     replacements: [
       {
@@ -158,7 +158,7 @@ export const companies: Company[] = [
   {
     name: "Pizza Hut",
     id: "9",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Pizza-Hut-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2017/05/Pizza-Hut-logo-640x441.png",
     isOk: false,
     replacements: [
       {
@@ -174,27 +174,9 @@ export const companies: Company[] = [
     description: "سلسلة مطاعم عالمية متخصصة بالبيتزا",
   },
   {
-    name: "KFC",
-    id: "10",
-    logo: "https://1000logos.net/wp-content/uploads/2017/05/KFC-Logo.png",
-    isOk: false,
-    replacements: [
-      {
-        id: "isOK_101",
-        isOk: true,
-        name: "Al Baik",
-        logo: "https://1000logos.net/wp-content/uploads/2020/04/Al-Baik-logo.png",
-      },
-    ],
-    city: "لويفيل",
-    state: "كنتاكي",
-    country: "الولايات المتحدة الأمريكية",
-    description: "سلسلة مطاعم الوجبات السريعة العالمية المعروفة بدجاجها المقلي",
-  },
-  {
     name: "Taco Bell",
     id: "11",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Taco-Bell-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2017/06/Taco-Bell-Logo.png",
     isOk: false,
     replacements: [
       {
@@ -212,7 +194,7 @@ export const companies: Company[] = [
   {
     name: "Krispy Kreme",
     id: "12",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Krispy-Kreme-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2018/02/Krispy-Kreme-Logo.png",
     isOk: false,
     replacements: [
       {
@@ -230,7 +212,7 @@ export const companies: Company[] = [
   {
     name: "Dunkin' Donuts",
     id: "13",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Dunkin-Donuts-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2023/04/Dunkin-Donuts-logo-768x432.png",
     isOk: false,
     replacements: [
       {
@@ -248,7 +230,7 @@ export const companies: Company[] = [
   {
     name: "Domino's Pizza",
     id: "14",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Dominos-pizza-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2023/04/Dominos-logo.png",
     isOk: false,
     replacements: [
       {
@@ -266,7 +248,7 @@ export const companies: Company[] = [
   {
     name: "Papa John's",
     id: "15",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Papa-Johns-Pizza-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2023/04/Papa-Johns-logo.png",
     isOk: false,
     replacements: [
       {
@@ -284,7 +266,7 @@ export const companies: Company[] = [
   {
     name: "Wendy's",
     id: "16",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Wendys-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2017/08/Wendys-Logo.png",
     isOk: false,
     replacements: [
       {
@@ -302,7 +284,7 @@ export const companies: Company[] = [
   {
     name: "Chick-fil-A",
     id: "17",
-    logo: "https://1000logos.net/wp-content/uploads/2017/05/Chick-fil-A-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2021/04/Chick-fil-A-logo.png",
     isOk: false,
     replacements: [
       {
@@ -320,7 +302,7 @@ export const companies: Company[] = [
   {
     name: "Dairy Queen",
     id: "18",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Dairy-Queen-logo-500x313.png",
+    logo: "https://1000logos.net/wp-content/uploads/2020/12/Dairy-Queen-Logo.png",
     isOk: false,
     replacements: [
       {
@@ -336,27 +318,9 @@ export const companies: Company[] = [
     description: "سلسلة مطاعم آيس كريم عالمية",
   },
   {
-    name: "Baskin Robbins",
-    id: "19",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Baskin-Robbins-logo-500x313.png",
-    isOk: false,
-    replacements: [
-      {
-        id: "isOK_191",
-        isOk: true,
-        name: "Frosty Treats",
-        logo: "https://1000logos.net/wp-content/uploads/2020/04/Frosty-Treats-logo.png",
-      },
-    ],
-    city: "برلينغتون",
-    state: "فيرمونت",
-    country: "الولايات المتحدة الأمريكية",
-    description: "سلسلة متاجر آيس كريم عالمية",
-  },
-  {
     name: "Arby's",
     id: "20",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Arbys-logo.png",
+    logo: "https://1000logos.net/wp-content/uploads/2018/04/Arbys-Logo.png",
     isOk: false,
     replacements: [
       {
@@ -368,114 +332,6 @@ export const companies: Company[] = [
     ],
     city: "سان دييغو",
     state: "كاليفورنيا",
-    country: "الولايات المتحدة الأمريكية",
-    description: "سلسلة مطاعم وجبات سريعة عالمية",
-  },
-  {
-    name: "Popeyes",
-    id: "21",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Popeyes-Louisiana-Kitchen-logo-500x313.png",
-    isOk: false,
-    replacements: [
-      {
-        id: "isOK_211",
-        isOk: true,
-        name: "Chicking",
-        logo: "https://1000logos.net/wp-content/uploads/2020/04/Chicking-logo.png",
-      },
-    ],
-    city: "لينكولن",
-    state: "نبراسكا",
-    country: "الولايات المتحدة الأمريكية",
-    description: "سلسلة مطاعم دجاج ووجبات سريعة عالمية",
-  },
-  {
-    name: "Chipotle",
-    id: "22",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Chipotle-Mexican-Grill-logo-500x313.png",
-    isOk: false,
-    replacements: [
-      {
-        id: "isOK_221",
-        isOk: true,
-        name: "Wrap It Up",
-        logo: "https://1000logos.net/wp-content/uploads/2020/04/Wrap-It-Up-logo.png",
-      },
-    ],
-    city: "سان دييغو",
-    state: "كاليفورنيا",
-    country: "الولايات المتحدة الأمريكية",
-    description: "سلسلة مطاعم مكسيكية عالمية",
-  },
-  {
-    name: "Sonic",
-    id: "23",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Sonic-Drive-In-logo-500x313.png",
-    isOk: false,
-    replacements: [
-      {
-        id: "isOK_231",
-        isOk: true,
-        name: "Super Sonic",
-        logo: "https://1000logos.net/wp-content/uploads/2020/04/Super-Sonic-logo.png",
-      },
-    ],
-    city: "غلينديل",
-    state: "كاليفورنيا",
-    country: "الولايات المتحدة الأمريكية",
-    description: "سلسلة مطاعم وجبات سريعة عالمية",
-  },
-  {
-    name: "Little Caesars",
-    id: "24",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Little-Caesars-Pizza-logo-500x313.png",
-    isOk: false,
-    replacements: [
-      {
-        id: "isOK_241",
-        isOk: true,
-        name: "Pizza Prince",
-        logo: "https://1000logos.net/wp-content/uploads/2020/04/Pizza-Prince-logo.png",
-      },
-    ],
-    city: "سانت لويس",
-    state: "ميزوري",
-    country: "الولايات المتحدة الأمريكية",
-    description: "سلسلة مطاعم بيتزا عالمية",
-  },
-  {
-    name: "Jack in the Box",
-    id: "25",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Jack-In-The-Box-logo-500x313.png",
-    isOk: false,
-    replacements: [
-      {
-        id: "isOK_251",
-        isOk: true,
-        name: "Jacks Burgers",
-        logo: "https://1000logos.net/wp-content/uploads/2020/04/Jacks-Burgers-logo.png",
-      },
-    ],
-    city: "نيو هوب",
-    state: "مينيسوتا",
-    country: "الولايات المتحدة الأمريكية",
-    description: "سلسلة مطاعم وجبات سريعة عالمية",
-  },
-  {
-    name: "Carl's Jr.",
-    id: "26",
-    logo: "https://1000logos.net/wp-content/uploads/2017/03/Carls-Jr-logo-500x313.png",
-    isOk: false,
-    replacements: [
-      {
-        id: "isOK_261",
-        isOk: true,
-        name: "Carl's Arabic Grill",
-        logo: "https://1000logos.net/wp-content/uploads/2020/04/Carls-Arabic-Grill-logo.png",
-      },
-    ],
-    city: "سكوكي",
-    state: "إلينوي",
     country: "الولايات المتحدة الأمريكية",
     description: "سلسلة مطاعم وجبات سريعة عالمية",
   },

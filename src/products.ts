@@ -1,6 +1,7 @@
 export type Product = {
   id: string;
   name: string;
+  englishName?: string;
   logo: string;
   isOk: boolean;
   city?: string;
@@ -13,7 +14,8 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    name: "Kentucky Fried Chicken",
+    name: "كنتاكي",
+    englishName: "Kentucky Fried Chicken",
     id: "1",
     logo: "https://1000logos.net/wp-content/uploads/2017/03/Kfc_logo.png",
     isOk: false,
@@ -21,7 +23,7 @@ export const products: Product[] = [
       {
         id: "isOK_11",
         isOk: true,
-        name: "Al-Baik",
+        name: "البيك",
         logo: "https://1000logos.net/wp-content/uploads/2020/04/Al-Baik-logo.png",
       },
     ],
@@ -31,7 +33,8 @@ export const products: Product[] = [
     description: "سلسلة مطاعم الوجبات السريعة العالمية المعروفة بدجاجها المقلي",
   },
   {
-    name: "McDonald's",
+    name: "ماكدونالدز",
+    englishName: "McDonald's",
     id: "2",
     logo: "https://1000logos.net/wp-content/uploads/2017/03/McDonalds-logo.png",
     isOk: false,
@@ -39,7 +42,7 @@ export const products: Product[] = [
       {
         id: "isOK_21",
         isOk: true,
-        name: "Kudu",
+        name: "بافلو برجر",
         logo: "https://1000logos.net/wp-content/uploads/2020/04/Kudu-Logo.png",
       },
     ],
@@ -49,7 +52,8 @@ export const products: Product[] = [
     description: "سلسلة مطاعم الوجبات السريعة العالمية المتخصصة بالهامبرجر",
   },
   {
-    name: "Pepsi",
+    name: "بيبسي",
+    englishName: "Pepsi",
     id: "3",
     logo: "https://1000logos.net/wp-content/uploads/2017/05/Pepsi-logo.png",
     isOk: false,
@@ -67,7 +71,8 @@ export const products: Product[] = [
     description: "شركة المشروبات الغازية العالمية المعروفة بمشروب بيبسي الغازي",
   },
   {
-    name: "Coca-Cola",
+    name: "كوكاكولا",
+    englishName: "Coca-Cola",
     id: "4",
     logo: "https://1000logos.net/wp-content/uploads/2021/05/Coca-Cola-logo.png",
     isOk: false,
@@ -85,7 +90,8 @@ export const products: Product[] = [
     description: "شركة المشروبات الغازية العالمية المعروفة بمشروب كوكاكولا",
   },
   {
-    name: "Lay's",
+    name: "ليز",
+    englishName: "Lay's",
     id: "5",
     logo: "https://upload.wikimedia.org/wikipedia/commons/6/67/Lay%27s_logo_2019.svg",
     isOk: false,
@@ -93,7 +99,7 @@ export const products: Product[] = [
       {
         id: "isOK_51",
         isOk: true,
-        name: "Chipsico",
+        name: "بيج شيبس",
         logo: "https://1000logos.net/wp-content/uploads/2020/04/Chipsico-logo.png",
       },
     ],
@@ -103,7 +109,8 @@ export const products: Product[] = [
     description: "علامة تجارية عالمية للوجبات الخفيفة معروفة برقائق البطاطس",
   },
   {
-    name: "Burger King",
+    name: "برجر كينج",
+    englishName: "Burger King",
     id: "6",
     logo: "https://1000logos.net/wp-content/uploads/2016/10/Burger-King_Logo-700x420.png",
     isOk: false,
@@ -111,7 +118,7 @@ export const products: Product[] = [
       {
         id: "isOK_61",
         isOk: true,
-        name: "Mr. Burger",
+        name: "بافلو برجر",
         logo: "https://1000logos.net/wp-content/uploads/2020/04/Mr.-Burger-logo.png",
       },
     ],
@@ -121,7 +128,8 @@ export const products: Product[] = [
     description: "سلسلة مطاعم الوجبات السريعة العالمية المتخصصة بالبرجر",
   },
   {
-    name: "Starbucks",
+    name: "ستاربكس",
+    englishName: "Starbucks",
     id: "7",
     logo: "https://1000logos.net/wp-content/uploads/2023/04/Starbucks-logo.png",
     isOk: false,
@@ -139,7 +147,8 @@ export const products: Product[] = [
     description: "سلسلة مقاهي عالمية متخصصة بالقهوة",
   },
   {
-    name: "Subway",
+    name: "سبواي",
+    englishName: "Subway",
     id: "8",
     logo: "https://1000logos.net/wp-content/uploads/2017/06/Subway-logo-640x356.png",
     isOk: false,
@@ -157,7 +166,8 @@ export const products: Product[] = [
     description: "سلسلة مطاعم وجبات سريعة عالمية متخصصة بالساندويتشات",
   },
   {
-    name: "Pizza Hut",
+    name: "بيتزا هت",
+    englishName: "Pizza Hut",
     id: "9",
     logo: "https://1000logos.net/wp-content/uploads/2017/05/Pizza-Hut-logo-640x441.png",
     isOk: false,
@@ -175,7 +185,8 @@ export const products: Product[] = [
     description: "سلسلة مطاعم عالمية متخصصة بالبيتزا",
   },
   {
-    name: "Taco Bell",
+    name: "تاكو بيل",
+    englishName: "Taco Bell",
     id: "11",
     logo: "https://1000logos.net/wp-content/uploads/2017/06/Taco-Bell-Logo.png",
     isOk: false,
@@ -193,7 +204,8 @@ export const products: Product[] = [
     description: "سلسلة مطاعم عالمية متخصصة بالتاكو المكسيكية ",
   },
   {
-    name: "Krispy Kreme",
+    name: "كريسبي كريم",
+    englishName: "Krispy Kreme",
     id: "12",
     logo: "https://1000logos.net/wp-content/uploads/2018/02/Krispy-Kreme-Logo.png",
     isOk: false,
@@ -211,7 +223,8 @@ export const products: Product[] = [
     description: "سلسلة مخابز عالمية متخصصة بالدونات",
   },
   {
-    name: "Dunkin' Donuts",
+    name: "دانكن دونتس",
+    englishName: "Dunkin' Donuts",
     id: "13",
     logo: "https://1000logos.net/wp-content/uploads/2023/04/Dunkin-Donuts-logo-768x432.png",
     isOk: false,
@@ -229,7 +242,8 @@ export const products: Product[] = [
     description: " سلسلة مخابز عالمية متخصصة بالدونات",
   },
   {
-    name: "Domino's Pizza",
+    name: "دومينوز بيتزا",
+    englishName: "Domino's Pizza",
     id: "14",
     logo: "https://1000logos.net/wp-content/uploads/2023/04/Dominos-logo.png",
     isOk: false,
@@ -247,7 +261,8 @@ export const products: Product[] = [
     description: "سلسلة توصيل بيتزا عالمية",
   },
   {
-    name: "Papa John's",
+    name: "بابا جونز",
+    englishName: "Papa John's",
     id: "15",
     logo: "https://1000logos.net/wp-content/uploads/2023/04/Papa-Johns-logo.png",
     isOk: false,
@@ -265,7 +280,8 @@ export const products: Product[] = [
     description: "سلسلة مطاعم بيتزا عالمية",
   },
   {
-    name: "Wendy's",
+    name: "وينديز",
+    englishName: "Wendy's",
     id: "16",
     logo: "https://1000logos.net/wp-content/uploads/2017/08/Wendys-Logo.png",
     isOk: false,
@@ -283,7 +299,8 @@ export const products: Product[] = [
     description: "سلسلة مطاعم وجبات سريعة عالمية",
   },
   {
-    name: "Chick-fil-A",
+    name: "تشيك فليه",
+    englishName: "Chick-fil-A",
     id: "17",
     logo: "https://1000logos.net/wp-content/uploads/2021/04/Chick-fil-A-logo.png",
     isOk: false,
@@ -301,7 +318,8 @@ export const products: Product[] = [
     description: "سلسلة مطاعم دجاج ووجبات سريعة عالمية",
   },
   {
-    name: "Dairy Queen",
+    name: "ديري كوين",
+    englishName: "Dairy Queen",
     id: "18",
     logo: "https://1000logos.net/wp-content/uploads/2020/12/Dairy-Queen-Logo.png",
     isOk: false,
@@ -319,7 +337,8 @@ export const products: Product[] = [
     description: "سلسلة مطاعم آيس كريم عالمية",
   },
   {
-    name: "Arby's",
+    name: "ارابيز",
+    englishName: "Arby's",
     id: "20",
     logo: "https://1000logos.net/wp-content/uploads/2018/04/Arbys-Logo.png",
     isOk: false,

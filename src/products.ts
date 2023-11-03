@@ -144,6 +144,15 @@ const elmaraai: Product = {
   description: "شركه سعوديه متخصصه في انتاج الالبان",
 };
 
+const samaraGum: Product = {
+  id: "isOk_15",
+  isOk: true,
+  name: "لبان سمارة",
+  logo: "https://i0.wp.com/www.almasrymarket.de/wp-content/uploads/2021/02/lebansamara.png?fit=819%2C1000&ssl=1",
+  country: "مصر",
+  description: "لبان مصري اصيل ومع تحيات احمد عسكر 3>",
+};
+
 export const products: Product[] = [
   {
     name: "كنتاكي",
@@ -456,5 +465,57 @@ export const products: Product[] = [
     country: "فرنسا",
     description: "شركة عالمية للألبان",
     company: "دانون",
+  },
+  {
+    name: "تشكتلس",
+    englishName: "Chiclets",
+    id: "23",
+    logo: "https://logowik.com/content/uploads/images/chiclets-adams.jpg",
+    isOk: false,
+    replacements: [samaraGum],
+    city: "نيويورك",
+    state: "نيويورك",
+    country: "الولايات المتحدة الأمريكية",
+    description: "شركة لأنتاج العلكة والحلوى",
+    company: "موندليز",
+  },
+  {
+    name: "كلورتس",
+    englishName: "Clorets",
+    id: "24",
+    logo: "https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/352824638_902097597553776_6900637503203201584_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Fr4L-3NB5LUAX9TCU--&_nc_ht=scontent.fcai19-4.fna&oh=00_AfB4RIQugaDOmX319NMRzcHc9vvE9aCxEHaovzjLmE01Pg&oe=65494039",
+    isOk: false,
+    replacements: [samaraGum],
+    city: "شيكاغو",
+    state: "إلينوي",
+    country: "الولايات المتحدة الأمريكية",
+    description: "شركة لأنتاج الحلوى الطبية",
+    company: "موندليز",
+  },
+  {
+    name: "ترايدنت",
+    englishName: "Trident",
+    id: "25",
+    logo: "https://scontent-hbe1-1.xx.fbcdn.net/v/t39.30808-6/352769489_787331999700822_4465806166204300643_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_8neD-6-wOwAX-VsM4l&_nc_ht=scontent-hbe1-1.xx&oh=00_AfBnm1Cawn0ATFLIEeN8_pR0BSmTsG6AF7wVj7K9a7vkJQ&oe=65497B3A",
+    isOk: false,
+    replacements: [samaraGum],
+    city: "شيكاغو",
+    state: "إلينوي",
+    country: "الولايات المتحدة الأمريكية",
+    description: "شركة لأنتاج العلكة",
+    company: "موندليز",
+  },
+  {
+    name: "هولز",
+    englishName: "Halls",
+    id: "26",
+    logo: "https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/348225582_1374782929979766_3374070143860030986_n.png?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=m_IMUjTEhnYAX8I5i6M&_nc_ht=scontent.fcai19-4.fna&oh=00_AfB7digkH-R8bUBfEs4X_rfNO-PVYz3zC_yL2uDW-u_RVw&oe=654A6059",
+    isOk: false,
+    replacements: [samaraGum],
+    city: "وايت فييلد",
+    state: "لانكشاير",
+    country: "انجلترا",
+    description: "شركة لأنتاج الحلوى الطبية",
+    company: "موندليز",
   },
 ];

@@ -1,15 +1,15 @@
 import { useParams } from "react-router";
-import { companies } from "../../companies";
-import CompanyMainInfo from "./components/CompanyMainInfo";
+import { products } from "../../products";
+import ProductMainInfo from "./components/ProductMainInfo";
 import { Link } from "react-router-dom";
 
-const Company = () => {
-  const { companyId } = useParams();
-  const company =
-    companies.find((company) => company.id === companyId) ||
-    companies
-      .flatMap((company) => company.replacements)
-      .find((company) => company?.id === companyId);
+const Product = () => {
+  const { productId } = useParams();
+  const product =
+    products.find((product) => product.id === productId) ||
+    products
+      .flatMap((product) => product.replacements)
+      .find((product) => product?.id === productId);
 
   return (
     <div className="flex justify-center items-center">
@@ -22,16 +22,16 @@ const Company = () => {
           </Link>
           <h1
             className={`${
-              company?.isOk ? "text-green-500" : "text-red-500"
+              product?.isOk ? "text-green-500" : "text-red-500"
             } text-4xl text-center font-extrabold underline`}
           >
-            {company?.name}
+            {product?.name}
           </h1>
         </div>
-        <CompanyMainInfo company={company!} />
+        <ProductMainInfo product={product!} />
       </div>
     </div>
   );
 };
 
-export default Company;
+export default Product;

@@ -1,10 +1,10 @@
-import CompaniesList from "../../components/CompaniesList";
-import { companies } from "../../companies";
+import ProductsList from "../../components/ProductsList";
+import { products } from "../../products";
 
 const Home = () => {
   return (
     <div className="flex flex-col gap-10">
-      <CompaniesList companies={companies} />
+      <ProductsList products={products} />
     </div>
   );
 };

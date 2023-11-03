@@ -1,4 +1,4 @@
-export type Company = {
+export type Product = {
   id: string;
   name: string;
   logo: string;
@@ -7,10 +7,11 @@ export type Company = {
   state?: string;
   country?: string;
   description?: string;
-  replacements?: Company[];
+  company?: string;
+  replacements?: Product[];
 };
 
-export const companies: Company[] = [
+export const products: Product[] = [
   {
     name: "Kentucky Fried Chicken",
     id: "1",

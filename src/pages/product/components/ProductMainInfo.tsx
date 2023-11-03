@@ -1,17 +1,17 @@
-import CompanyCard from "../../../components/CompanyCard";
-import { Company } from "../../../companies";
-import CompaniesList from "../../../components/CompaniesList";
+import ProductCard from "../../../components/ProductCard";
+import { Company } from "../../../products";
+import CompaniesList from "../../../components/ProductsList";
 
-interface CompanyMainInfoProps {
-  company: Company;
+interface ProductMainInfoProps {
+  product: Company;
 }
 
-const CompanyMainInfo = ({ company }: CompanyMainInfoProps) => {
+const ProductMainInfo = ({ product }: ProductMainInfoProps) => {
   return (
     <div className="flex flex-col  gap-4">
       <div className=" flex flex-col sm:flex-row gap-8 items-center sm:items-start">
         <div className="w-10/12 lg:w-3/12  ">
-          <CompanyCard company={company} hoverToShowEffect={false} hideName />
+          <ProductCard company={company} hoverToShowEffect={false} hideName />
         </div>
         <div className="flex">
           <CompanyInfoList company={company} />
@@ -25,7 +25,7 @@ const CompanyMainInfo = ({ company }: CompanyMainInfoProps) => {
   );
 };
 
-const CompanyInfoList = ({ company }: CompanyMainInfoProps) => {
+const CompanyInfoList = ({ company }: ProductMainInfoProps) => {
   return (
     <div className="flex flex-col gap-5">
       <CompanyInfoRow title="المدينة" value={company.city} />
@@ -66,4 +66,4 @@ const Replacements = ({ replacements }: { replacements: Company[] }) => {
   );
 };
 
-export default CompanyMainInfo;
+export default ProductMainInfo;

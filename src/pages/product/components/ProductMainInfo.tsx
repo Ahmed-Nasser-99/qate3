@@ -17,10 +17,14 @@ const ProductMainInfo = ({ product }: ProductMainInfoProps) => {
           <ProductInfoList product={product} />
         </div>
       </div>
-      <hr className="bg-white h-[1px] w-full" />
-      <div>
-        <Replacements replacements={product.replacements!} />
-      </div>
+      {!product.isOk && (
+        <>
+          <hr className="bg-white h-[1px] w-full" />
+          <div>
+            <Replacements replacements={product.replacements!} />
+          </div>
+        </>
+      )}
     </div>
   );
 };

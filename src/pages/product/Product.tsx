@@ -16,7 +16,7 @@ const Product = () => {
       <div className="flex flex-col w-full md:w-11/12 lg:w-10/12 xl:w-9/12 gap-10">
         <div>
           <Link to="/">
-            <button className="p-0 text-gray-400">
+            <button className="p-0 text-gray-50 text-xl">
               {"< "}الرجوع للصفحة الرئيسية
             </button>
           </Link>

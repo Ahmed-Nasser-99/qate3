@@ -14,7 +14,7 @@ const ProductCard = ({
 }: ProductCardProps) => {
   const cardBody = (
     <div
-      className={`flex flex-col items-center justify-center rounded-lg 
+      className={`flex flex-col items-center justify-center rounded-lg aspect-square 
         p-2 border-2 border-gray-300 transition duration-300 ease-in-out bg-cover ${
           hoverToShowEffect ? "cursor-pointer" : ""
         }
@@ -45,7 +45,7 @@ const ProductCard = ({
       <img
         src={product.logo}
         alt={product.name}
-        className="w-4/5 aspect-square object-contain"
+        className="w-2/3 object-contain"
       />
       {!hideName && <p className="text-lg font-bold">{product.name}</p>}
     </div>
